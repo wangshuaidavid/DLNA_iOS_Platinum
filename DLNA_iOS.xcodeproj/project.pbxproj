@@ -1,0 +1,533 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		2948FD171ADDFF900051F3BD /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 2948FD161ADDFF900051F3BD /* main.m */; };
+		2948FD1A1ADDFF900051F3BD /* AppDelegate.mm in Sources */ = {isa = PBXBuildFile; fileRef = 2948FD191ADDFF900051F3BD /* AppDelegate.mm */; };
+		2948FD201ADDFF900051F3BD /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 2948FD1E1ADDFF900051F3BD /* Main.storyboard */; };
+		2948FD221ADDFF900051F3BD /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 2948FD211ADDFF900051F3BD /* Images.xcassets */; };
+		2948FD251ADDFF900051F3BD /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 2948FD231ADDFF900051F3BD /* LaunchScreen.xib */; };
+		2948FD311ADDFF900051F3BD /* DLNA_iOSTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 2948FD301ADDFF900051F3BD /* DLNA_iOSTests.m */; };
+		2948FD3D1ADE0AC80051F3BD /* Platinum.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2948FD3C1ADE0AC80051F3BD /* Platinum.framework */; };
+		2948FD421ADE0FFA0051F3BD /* PltMediaServerObject.mm in Sources */ = {isa = PBXBuildFile; fileRef = 2948FD411ADE0FFA0051F3BD /* PltMediaServerObject.mm */; };
+		2948FD481ADE17760051F3BD /* ItunesMusicDMSDelegate.mm in Sources */ = {isa = PBXBuildFile; fileRef = 2948FD451ADE17760051F3BD /* ItunesMusicDMSDelegate.mm */; };
+		2948FD491ADE17760051F3BD /* PhotoDMSDelegate.mm in Sources */ = {isa = PBXBuildFile; fileRef = 2948FD471ADE17760051F3BD /* PhotoDMSDelegate.mm */; };
+		2948FD521ADE181F0051F3BD /* AssetsLibrary.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2948FD501ADE18000051F3BD /* AssetsLibrary.framework */; };
+		2948FD531ADE181F0051F3BD /* CoreAudio.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2948FD4E1ADE17E60051F3BD /* CoreAudio.framework */; };
+		2948FD541ADE181F0051F3BD /* CoreMedia.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2948FD4C1ADE17DF0051F3BD /* CoreMedia.framework */; };
+		2948FD551ADE181F0051F3BD /* AVFoundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2948FD4A1ADE17D90051F3BD /* AVFoundation.framework */; };
+		2948FD591ADE18720051F3BD /* Util.m in Sources */ = {isa = PBXBuildFile; fileRef = 2948FD581ADE18720051F3BD /* Util.m */; };
+		2948FD5E1ADE25B30051F3BD /* UPnPEngine.mm in Sources */ = {isa = PBXBuildFile; fileRef = 2948FD5D1ADE25B30051F3BD /* UPnPEngine.mm */; };
+		2948FD5F1ADE394F0051F3BD /* MediaPlayer.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2948FD5A1ADE1A040051F3BD /* MediaPlayer.framework */; };
+		2948FD671ADE55910051F3BD /* MainTableViewController.mm in Sources */ = {isa = PBXBuildFile; fileRef = 2948FD661ADE55910051F3BD /* MainTableViewController.mm */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		2948FD2B1ADDFF900051F3BD /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 2948FD091ADDFF900051F3BD /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 2948FD101ADDFF900051F3BD;
+			remoteInfo = DLNA_iOS;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		2948FD111ADDFF900051F3BD /* DLNA_iOS.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = DLNA_iOS.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		2948FD151ADDFF900051F3BD /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		2948FD161ADDFF900051F3BD /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		2948FD181ADDFF900051F3BD /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		2948FD191ADDFF900051F3BD /* AppDelegate.mm */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.objcpp; path = AppDelegate.mm; sourceTree = "<group>"; };
+		2948FD1F1ADDFF900051F3BD /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		2948FD211ADDFF900051F3BD /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		2948FD241ADDFF900051F3BD /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/LaunchScreen.xib; sourceTree = "<group>"; };
+		2948FD2A1ADDFF900051F3BD /* DLNA_iOSTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = DLNA_iOSTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		2948FD2F1ADDFF900051F3BD /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		2948FD301ADDFF900051F3BD /* DLNA_iOSTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = DLNA_iOSTests.m; sourceTree = "<group>"; };
+		2948FD3C1ADE0AC80051F3BD /* Platinum.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Platinum.framework; path = Platinum/Platinum.framework; sourceTree = "<group>"; };
+		2948FD401ADE0FFA0051F3BD /* PltMediaServerObject.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PltMediaServerObject.h; sourceTree = "<group>"; };
+		2948FD411ADE0FFA0051F3BD /* PltMediaServerObject.mm */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.objcpp; path = PltMediaServerObject.mm; sourceTree = "<group>"; };
+		2948FD441ADE17760051F3BD /* ItunesMusicDMSDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ItunesMusicDMSDelegate.h; sourceTree = "<group>"; };
+		2948FD451ADE17760051F3BD /* ItunesMusicDMSDelegate.mm */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.objcpp; path = ItunesMusicDMSDelegate.mm; sourceTree = "<group>"; };
+		2948FD461ADE17760051F3BD /* PhotoDMSDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PhotoDMSDelegate.h; sourceTree = "<group>"; };
+		2948FD471ADE17760051F3BD /* PhotoDMSDelegate.mm */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.objcpp; path = PhotoDMSDelegate.mm; sourceTree = "<group>"; };
+		2948FD4A1ADE17D90051F3BD /* AVFoundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AVFoundation.framework; path = System/Library/Frameworks/AVFoundation.framework; sourceTree = SDKROOT; };
+		2948FD4C1ADE17DF0051F3BD /* CoreMedia.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreMedia.framework; path = System/Library/Frameworks/CoreMedia.framework; sourceTree = SDKROOT; };
+		2948FD4E1ADE17E60051F3BD /* CoreAudio.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreAudio.framework; path = System/Library/Frameworks/CoreAudio.framework; sourceTree = SDKROOT; };
+		2948FD501ADE18000051F3BD /* AssetsLibrary.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AssetsLibrary.framework; path = System/Library/Frameworks/AssetsLibrary.framework; sourceTree = SDKROOT; };
+		2948FD571ADE18720051F3BD /* Util.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Util.h; sourceTree = "<group>"; };
+		2948FD581ADE18720051F3BD /* Util.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Util.m; sourceTree = "<group>"; };
+		2948FD5A1ADE1A040051F3BD /* MediaPlayer.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MediaPlayer.framework; path = System/Library/Frameworks/MediaPlayer.framework; sourceTree = SDKROOT; };
+		2948FD5C1ADE25B30051F3BD /* UPnPEngine.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = UPnPEngine.h; sourceTree = "<group>"; };
+		2948FD5D1ADE25B30051F3BD /* UPnPEngine.mm */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.objcpp; path = UPnPEngine.mm; sourceTree = "<group>"; };
+		2948FD601ADE4D0B0051F3BD /* Macro.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Macro.h; sourceTree = "<group>"; };
+		2948FD651ADE55910051F3BD /* MainTableViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MainTableViewController.h; sourceTree = "<group>"; };
+		2948FD661ADE55910051F3BD /* MainTableViewController.mm */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.objcpp; path = MainTableViewController.mm; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		2948FD0E1ADDFF900051F3BD /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2948FD5F1ADE394F0051F3BD /* MediaPlayer.framework in Frameworks */,
+				2948FD521ADE181F0051F3BD /* AssetsLibrary.framework in Frameworks */,
+				2948FD531ADE181F0051F3BD /* CoreAudio.framework in Frameworks */,
+				2948FD541ADE181F0051F3BD /* CoreMedia.framework in Frameworks */,
+				2948FD551ADE181F0051F3BD /* AVFoundation.framework in Frameworks */,
+				2948FD3D1ADE0AC80051F3BD /* Platinum.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		2948FD271ADDFF900051F3BD /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		2948FD081ADDFF900051F3BD = {
+			isa = PBXGroup;
+			children = (
+				2948FD131ADDFF900051F3BD /* DLNA_iOS */,
+				2948FD2D1ADDFF900051F3BD /* DLNA_iOSTests */,
+				2948FD121ADDFF900051F3BD /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		2948FD121ADDFF900051F3BD /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				2948FD111ADDFF900051F3BD /* DLNA_iOS.app */,
+				2948FD2A1ADDFF900051F3BD /* DLNA_iOSTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		2948FD131ADDFF900051F3BD /* DLNA_iOS */ = {
+			isa = PBXGroup;
+			children = (
+				2948FD611ADE54400051F3BD /* Controller */,
+				2948FD3F1ADE0FFA0051F3BD /* UPnPObjects */,
+				2948FD561ADE18720051F3BD /* Utility */,
+				2948FD141ADDFF900051F3BD /* Supporting Files */,
+				2948FD3E1ADE0AD50051F3BD /* Framework */,
+			);
+			path = DLNA_iOS;
+			sourceTree = "<group>";
+		};
+		2948FD141ADDFF900051F3BD /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				2948FD1E1ADDFF900051F3BD /* Main.storyboard */,
+				2948FD231ADDFF900051F3BD /* LaunchScreen.xib */,
+				2948FD211ADDFF900051F3BD /* Images.xcassets */,
+				2948FD181ADDFF900051F3BD /* AppDelegate.h */,
+				2948FD191ADDFF900051F3BD /* AppDelegate.mm */,
+				2948FD151ADDFF900051F3BD /* Info.plist */,
+				2948FD161ADDFF900051F3BD /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		2948FD2D1ADDFF900051F3BD /* DLNA_iOSTests */ = {
+			isa = PBXGroup;
+			children = (
+				2948FD301ADDFF900051F3BD /* DLNA_iOSTests.m */,
+				2948FD2E1ADDFF900051F3BD /* Supporting Files */,
+			);
+			path = DLNA_iOSTests;
+			sourceTree = "<group>";
+		};
+		2948FD2E1ADDFF900051F3BD /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				2948FD2F1ADDFF900051F3BD /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		2948FD3E1ADE0AD50051F3BD /* Framework */ = {
+			isa = PBXGroup;
+			children = (
+				2948FD5A1ADE1A040051F3BD /* MediaPlayer.framework */,
+				2948FD501ADE18000051F3BD /* AssetsLibrary.framework */,
+				2948FD4E1ADE17E60051F3BD /* CoreAudio.framework */,
+				2948FD4C1ADE17DF0051F3BD /* CoreMedia.framework */,
+				2948FD4A1ADE17D90051F3BD /* AVFoundation.framework */,
+				2948FD3C1ADE0AC80051F3BD /* Platinum.framework */,
+			);
+			name = Framework;
+			sourceTree = "<group>";
+		};
+		2948FD3F1ADE0FFA0051F3BD /* UPnPObjects */ = {
+			isa = PBXGroup;
+			children = (
+				2948FD5C1ADE25B30051F3BD /* UPnPEngine.h */,
+				2948FD5D1ADE25B30051F3BD /* UPnPEngine.mm */,
+				2948FD401ADE0FFA0051F3BD /* PltMediaServerObject.h */,
+				2948FD411ADE0FFA0051F3BD /* PltMediaServerObject.mm */,
+				2948FD431ADE17760051F3BD /* MediaServerDelegates */,
+			);
+			path = UPnPObjects;
+			sourceTree = "<group>";
+		};
+		2948FD431ADE17760051F3BD /* MediaServerDelegates */ = {
+			isa = PBXGroup;
+			children = (
+				2948FD441ADE17760051F3BD /* ItunesMusicDMSDelegate.h */,
+				2948FD451ADE17760051F3BD /* ItunesMusicDMSDelegate.mm */,
+				2948FD461ADE17760051F3BD /* PhotoDMSDelegate.h */,
+				2948FD471ADE17760051F3BD /* PhotoDMSDelegate.mm */,
+			);
+			path = MediaServerDelegates;
+			sourceTree = "<group>";
+		};
+		2948FD561ADE18720051F3BD /* Utility */ = {
+			isa = PBXGroup;
+			children = (
+				2948FD571ADE18720051F3BD /* Util.h */,
+				2948FD581ADE18720051F3BD /* Util.m */,
+				2948FD601ADE4D0B0051F3BD /* Macro.h */,
+			);
+			path = Utility;
+			sourceTree = "<group>";
+		};
+		2948FD611ADE54400051F3BD /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				2948FD651ADE55910051F3BD /* MainTableViewController.h */,
+				2948FD661ADE55910051F3BD /* MainTableViewController.mm */,
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		2948FD101ADDFF900051F3BD /* DLNA_iOS */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 2948FD341ADDFF900051F3BD /* Build configuration list for PBXNativeTarget "DLNA_iOS" */;
+			buildPhases = (
+				2948FD0D1ADDFF900051F3BD /* Sources */,
+				2948FD0E1ADDFF900051F3BD /* Frameworks */,
+				2948FD0F1ADDFF900051F3BD /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = DLNA_iOS;
+			productName = DLNA_iOS;
+			productReference = 2948FD111ADDFF900051F3BD /* DLNA_iOS.app */;
+			productType = "com.apple.product-type.application";
+		};
+		2948FD291ADDFF900051F3BD /* DLNA_iOSTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 2948FD371ADDFF900051F3BD /* Build configuration list for PBXNativeTarget "DLNA_iOSTests" */;
+			buildPhases = (
+				2948FD261ADDFF900051F3BD /* Sources */,
+				2948FD271ADDFF900051F3BD /* Frameworks */,
+				2948FD281ADDFF900051F3BD /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				2948FD2C1ADDFF900051F3BD /* PBXTargetDependency */,
+			);
+			name = DLNA_iOSTests;
+			productName = DLNA_iOSTests;
+			productReference = 2948FD2A1ADDFF900051F3BD /* DLNA_iOSTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		2948FD091ADDFF900051F3BD /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0620;
+				ORGANIZATIONNAME = ws;
+				TargetAttributes = {
+					2948FD101ADDFF900051F3BD = {
+						CreatedOnToolsVersion = 6.2;
+					};
+					2948FD291ADDFF900051F3BD = {
+						CreatedOnToolsVersion = 6.2;
+						TestTargetID = 2948FD101ADDFF900051F3BD;
+					};
+				};
+			};
+			buildConfigurationList = 2948FD0C1ADDFF900051F3BD /* Build configuration list for PBXProject "DLNA_iOS" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 2948FD081ADDFF900051F3BD;
+			productRefGroup = 2948FD121ADDFF900051F3BD /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				2948FD101ADDFF900051F3BD /* DLNA_iOS */,
+				2948FD291ADDFF900051F3BD /* DLNA_iOSTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		2948FD0F1ADDFF900051F3BD /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2948FD201ADDFF900051F3BD /* Main.storyboard in Resources */,
+				2948FD251ADDFF900051F3BD /* LaunchScreen.xib in Resources */,
+				2948FD221ADDFF900051F3BD /* Images.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		2948FD281ADDFF900051F3BD /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		2948FD0D1ADDFF900051F3BD /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2948FD671ADE55910051F3BD /* MainTableViewController.mm in Sources */,
+				2948FD5E1ADE25B30051F3BD /* UPnPEngine.mm in Sources */,
+				2948FD421ADE0FFA0051F3BD /* PltMediaServerObject.mm in Sources */,
+				2948FD491ADE17760051F3BD /* PhotoDMSDelegate.mm in Sources */,
+				2948FD1A1ADDFF900051F3BD /* AppDelegate.mm in Sources */,
+				2948FD481ADE17760051F3BD /* ItunesMusicDMSDelegate.mm in Sources */,
+				2948FD591ADE18720051F3BD /* Util.m in Sources */,
+				2948FD171ADDFF900051F3BD /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		2948FD261ADDFF900051F3BD /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2948FD311ADDFF900051F3BD /* DLNA_iOSTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		2948FD2C1ADDFF900051F3BD /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 2948FD101ADDFF900051F3BD /* DLNA_iOS */;
+			targetProxy = 2948FD2B1ADDFF900051F3BD /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		2948FD1E1ADDFF900051F3BD /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				2948FD1F1ADDFF900051F3BD /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		2948FD231ADDFF900051F3BD /* LaunchScreen.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				2948FD241ADDFF900051F3BD /* Base */,
+			);
+			name = LaunchScreen.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		2948FD321ADDFF900051F3BD /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.2;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		2948FD331ADDFF900051F3BD /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		2948FD351ADDFF900051F3BD /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/DLNA_iOS/Platinum",
+				);
+				INFOPLIST_FILE = DLNA_iOS/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		2948FD361ADDFF900051F3BD /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/DLNA_iOS/Platinum",
+				);
+				INFOPLIST_FILE = DLNA_iOS/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		2948FD381ADDFF900051F3BD /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = DLNA_iOSTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/DLNA_iOS.app/DLNA_iOS";
+			};
+			name = Debug;
+		};
+		2948FD391ADDFF900051F3BD /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = DLNA_iOSTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/DLNA_iOS.app/DLNA_iOS";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		2948FD0C1ADDFF900051F3BD /* Build configuration list for PBXProject "DLNA_iOS" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				2948FD321ADDFF900051F3BD /* Debug */,
+				2948FD331ADDFF900051F3BD /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		2948FD341ADDFF900051F3BD /* Build configuration list for PBXNativeTarget "DLNA_iOS" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				2948FD351ADDFF900051F3BD /* Debug */,
+				2948FD361ADDFF900051F3BD /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		2948FD371ADDFF900051F3BD /* Build configuration list for PBXNativeTarget "DLNA_iOSTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				2948FD381ADDFF900051F3BD /* Debug */,
+				2948FD391ADDFF900051F3BD /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 2948FD091ADDFF900051F3BD /* Project object */;
+}
