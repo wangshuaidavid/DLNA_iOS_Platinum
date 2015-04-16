@@ -26,9 +26,11 @@ DLNA_iOS 会同时开启3个服务，分别对应以上提及的三种媒体文�
 
 ----
 ![alt dms on iphone](./ReadmePics/IMG_DMS.jpg)
+
 ![alt 8Player Main Board](./ReadmePics/IMG_DMP1.jpg)
+
 ![alt 8Player Browse Photo](./ReadmePics/IMG_DMP2.jpg)
+
 ![alt 8Player Show Photo List](./ReadmePics/IMG_DMP3.jpg)
+
 ![alt 8Player Browse iTunes](./ReadmePics/IMG_DMP4.jpg)
-
-
