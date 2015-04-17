@@ -25,6 +25,9 @@ DLNA_iOS 会同时开启3个服务，分别对应以上提及的三种媒体文�
 手机APP端的功能相对单一，只是显示当前 APP 所开启的 DMS 服务器的状态，之后会加入通过Web方式向手机端APP上传媒体文件的功能等。
 
 ----
+### Anything about this Project please feel free to contact: <wangshuai@yeah.net>
+----
+
 ![alt dms on iphone](./ReadmePics/IMG_DMS.jpg)
 
 ![alt 8Player Main Board](./ReadmePics/IMG_DMP1.jpg)
