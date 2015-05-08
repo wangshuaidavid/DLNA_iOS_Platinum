@@ -1,6 +1,7 @@
 # DLNA_iOS_Platinum
 This APP is an implementation of a DLNA media server powered by Platinum libs. It can publish the media files in iTunes and Photo Album to any DLNA player which is in the same network enviroment. 
 
+[中文](README.md)
 
 ##Description:
 DLNA_iOS was build based on a similar DMS APP for iOS 5
