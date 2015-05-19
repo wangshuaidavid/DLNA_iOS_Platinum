@@ -1,6 +1,8 @@
 # DLNA_iOS_Platinum
 使用 Platinum 实现的一个 DLNA 的媒体服务器，可以将手机内的 iTunes 和相册资源发送给 DLNA Player 播放。
 
+**只支持真机运行使用，不支持模拟器 ^^**
+
 [English Version](README_EN.md)
 
 ##项目说明:
